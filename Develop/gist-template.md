@@ -10,9 +10,9 @@ The regular expression is used to judge if the string has a hexadecimal color co
 2. [Optional Character: (#?)](#optional-character)
 3. [Hexadecimal Characters: ([a-f0-9])](#hexadecimal-characters)
 4. [Quantifiers: ({6} and {3})](#quantifiers)
+5. [Greedy and Lazy Match](#greedy-and-lazy-match)
 5. [Examples](#examples)
 6. [Author](#author)
-7. [Greedy and Lazy Match](#Greedy and Lazy Match)
 
 ### Anchors
 The Anchors in a regex string are the ^ and $, the ^ will represent the start of the string and the $ represents the end of the string
