@@ -47,6 +47,6 @@ A long-format hex color code comprising six characters for RGB values. It matche
 #G3E589
 This does not conform to the regex pattern because 'G' is not a valid hexadecimal character.
 ## Author
-Garrett sheppard 
-I am a new web developer learning more about web development to get a job.
+My name is Garrett Sheppard. My goal is to learn coding languages like Javascript, Node.js, Sequelize, MySQL, CSS, HTML and other web technologies.
+My github page has many projects I have worked on and this gist is another way to learn.
 https://github.com/
