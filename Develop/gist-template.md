@@ -12,6 +12,7 @@ The regular expression is used to judge if the string has a hexadecimal color co
 4. [Quantifiers: ({6} and {3})](#quantifiers)
 5. [Examples](#examples)
 6. [Author](#author)
+7. [Greedy and Lazy Match](#Greedy and Lazy Match)
 
 ### Anchors
 The Anchors in a regex string are the ^ and $, the ^ will represent the start of the string and the $ represents the end of the string
@@ -26,6 +27,15 @@ The [a-f0-9] segment within the regex represents the range of characters allowed
 
 ### Quantifiers
 Quantifiers ({6} and {3}) in the regex specify the length of the matched pattern. {6} requires a six-character match (e.g., #00FF99), while {3} allows for a three-character match (e.g., #0F9).
+
+###Greedy and Lazy Match
+Code Snipet: [a-f0-9]{6} Code Snipet: [a-f0-9]{3}
+
+Quantifier: {}
+
+Description: Greedy means match the longest possible string. Lazy means match the shortest possible string.
+
+Example: w.+l matches well in well but the lazy w.+?l matches wel
 
 ### Examples
 #0F9
